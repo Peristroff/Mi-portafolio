@@ -124,7 +124,7 @@ img {
 .cta {
   padding: 10px 14px;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--brand), var(--accent));
+  background: linear-gradient(135deg, var(--bg-2), var(--warn));
   color: white;
   font-weight: 700;
 }
