@@ -30,7 +30,7 @@ const proyectos = [
   {
     titulo: "Automatización Atención al Estudiante en CIADE UNAB",
     desc: "Plataforma web para gestionar solicitudes de cita a coordinación CIADE.",
-    tags: ["React","Node.js","Express","Prisma","PostgreSQL","Firebase Auth","Bootstrap"],
+    tags: ["React", "Node.js", "Express", "Prisma", "PostgreSQL", "Firebase Auth", "Bootstrap"],
     rol: "Desarrolladora Fullstack",
     res: "Chatbot inteligente, paneles por rol, autenticación y notificaciones.",
     link: "https://github.com/YobiObi/ChatbotCIADE",
@@ -85,8 +85,8 @@ if (grid) {
 }
 
 // Scroll suave con compensación por header fijo
-document.querySelectorAll('a[href^="#"]').forEach(a=>{
-  a.addEventListener('click', e=>{
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
     const href = a.getAttribute('href');
     const target = document.querySelector(href);
     if (!target) return;
@@ -100,7 +100,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{
 });
 
 // Resaltar menú según sección en viewport
-const sectionIds = ['#proyectos','#experiencia','#areas', '#servicios','#certificaciones','#reconocimientos','#skills','#contacto'];
+const sectionIds = ['#proyectos', '#experiencia', '#areas', '#servicios', '#certificaciones', '#reconocimientos', '#skills', '#contacto'];
 const links = sectionIds.map(id => [id, document.querySelector(`.menu a[href="${id}"]`)]);
 const headerEl2 = document.querySelector('.header');
 
@@ -125,8 +125,8 @@ window.addEventListener('load', onScroll);
 // Animaciones con IntersectionObserver (respeta reduce-motion)
 const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 if (!prefersReduced) {
-  const io = new IntersectionObserver((entries)=>{
-    entries.forEach(e=>{
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
       if (e.isIntersecting) {
         e.target.classList.add('in');
         io.unobserve(e.target);
