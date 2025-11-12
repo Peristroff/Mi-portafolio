@@ -28,31 +28,31 @@ if (hamburger && menu) {
 // Datos de proyectos
 const proyectos = [
   {
-    titulo: "Automatización Atención al Estudiante en CIADE UNAB",
-    desc: "Plataforma web para gestionar solicitudes de cita a coordinación CIADE.",
-    tags: ["React", "Node.js", "Express", "Prisma", "PostgreSQL", "Firebase Auth", "Bootstrap"],
-    rol: "Desarrolladora Fullstack",
-    res: "Chatbot inteligente, paneles por rol, autenticación y notificaciones.",
-    link: "https://github.com/YobiObi/ChatbotCIADE",
-    img: "https://elements-resized.envatousercontent.com/elements-cover-images/02e5c2ab-9ce9-4a2c-b907-b97e9890c3c0?w=433&cf_fit=scale-down&q=85&format=auto&s=4910d70b2b2e0fca22ab28fcacf1fd22519a4b6c6fb366d02bfbec669f1496aa"
+    titulo: "Predicción de un aterrizaje de un cohete marítimo usando un algoritmo de aprendizaje automático",
+    desc: "",
+    tags: ["Python", "Jupyter Notebook", "pandas", "numpy", "seaborn", "scikit-learn"],
+    rol: "Desarrollador y analista de datos.",
+    res: "Algoritmo de predicción automática.",
+    link: "https://github.com/Peristroff/IBM-DataScienceCapstone/blob/main/Module%204/SpaceX-Machine-Learning-Prediction-Part-5-v1.ipynb",
+    img: "https://raw.githubusercontent.com/Peristroff/Mi-portafolio/refs/heads/Pablo/resources/Imagen1.png"
   },
   {
-    titulo: "ComuniRed App",
-    desc: "App para conectar comunidades de condominios, villas o edificios.",
-    rol: "Dev principal y analista",
-    res: "Módulos de reserva, avisos y reportes de gastos comunes.",
-    tags: ["React", "Firebase Auth", "Node.js", "MongoDB", "Tailwind"],
-    link: "https://github.com/legitpotato/Prototipo-ING-2",
-    img: "https://lamarcafincas.com/wp-content/uploads/2024/03/shutterstock_1675703479-scaled-1-1024x727.jpg"
+    titulo: "Análisis de crímenes en la ciudad de Chicago utilizando SQL",
+    desc: "",
+    rol: "Desarrollador principal y analista de datos",
+    res: "Análisis de datos.",
+    tags: ["Jupyter", "SQLite 3", "pandas"],
+    link: "https://github.com/Peristroff/IBM-CrimeDataAnalysis/blob/main/mod5-final-project-v2.ipynb",
+    img: "https://raw.githubusercontent.com/Peristroff/Mi-portafolio/dcb0bc1fe3769e2e5c4fefbfbf73e8f7fbeda5ae/resources/Imagen2.png"
   },
   {
-    titulo: "Predicción de Diabetes Tipo II",
-    desc: "3° lugar en Olimpiadas de Ciencias de Datos (2024).",
-    rol: "Científica de datos",
-    res: "Red neuronal capaz de predecir la diabetes tipo II en un conjunto de datos.",
-    tags: ["R", "Regresión logística", "Redes Neuronales"],
-    link: "https://github.com/YobiObi/Proyecto-Ciencia-de-Datos",
-    img: "https://msmk.university/wp-content/uploads/2024/08/shutterstock_587768567.png"
+    titulo: "Comparador de precios de productos en locales de abarrotes",
+    desc: "Repositorio privado.<br>El núcleo de la propuesta consiste en realizar una aplicación móvil que permita a los usuarios:<br> -	Buscar y agregar productos.<br>  -	Comparar dichos productos con sus precios.<br>  -	Buscar y agregar locales con su ubicación georreferenciada.",
+    rol: "Desarrollador fullstack",
+    res: "Aplicación de Android con impacto en la sociedad.",
+    tags: ["React Native", "MMKV", "autocomplete-dropdown", "maps", "Android"],
+    link: "",
+    img: "https://raw.githubusercontent.com/Peristroff/Mi-portafolio/dcb0bc1fe3769e2e5c4fefbfbf73e8f7fbeda5ae/resources/Imagen3.png"
   }
 ];
 
